@@ -22,3 +22,7 @@ When starting your project, you'll see something like this for your project URL:
 
 exp://192.168.0.2:19000
 The "manifest" at that URL tells the Expo app how to retrieve and load your app's JavaScript bundle, so even if you load it in the app via a URL like exp://localhost:19000, the Expo client app will still try to retrieve your app at the IP address that the start script provides.
+
+Installations
+
+You need to install required packages which are import to the project. 
