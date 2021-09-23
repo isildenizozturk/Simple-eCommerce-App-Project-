@@ -1,13 +1,42 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { createAppContainer, createSwitchNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+import { createBottomTabNavigator } from 'react-navigation-tabs';
 
-export default function App() {
+
+import Welcome from './src/screens/Welcome';
+import Login from './src/screens/Login';
+import Signup from './src/screens/Signup';
+import Home from './src/screens/Home';
+import Cart from './src/screens/ShoppingBasket';
+import ItemDetail from './src/screens/ItemDetail';
+import SearchScreen from './src/screens/SearchScreen';
+
+
+
+const switchNavigator = createSwitchNavigator({
+  loginFlow: createStackNavigator({
+    Welcome: Welcome,
+    Login: Login,
+    Signup: Signup,
+  }),
+  mainFlow: createBottomTabNavigator({
+    Home: Home,
+    Cart: Cart,
+    SearchScreen: SearchScreen,
+  }),
+  ItemDetail: ItemDetail,
+
+});
+
+
+const App = createAppContainer(switchNavigator);
+
+export default () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <App />
   );
 }
 
