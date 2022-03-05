@@ -25,16 +25,4 @@ The "manifest" at that URL tells the Expo app how to retrieve and load your app'
 Installations
 
 You need to install required packages which are import to the project. 
-![eCommerceApp-Welcome](https://user-images.githubusercontent.com/61202188/156882583-a5e55974-f820-4a59-b5e7-77530f2be91a.jpg)
-
-![eCommerceApp-SignUp](https://user-images.githubusercontent.com/61202188/156882606-799794d1-666c-4f31-b6cf-7256ca40c313.jpg)
-
-![eCommerceApp-Login](https://user-images.githubusercontent.com/61202188/156882612-01467c29-36c5-4356-921e-bce31308bffc.jpg)
-
-![eCommerceApp-Home](https://user-images.githubusercontent.com/61202188/156882615-4b85ddbf-35f0-4718-a16a-f8433f14084e.jpg)
-
-![eCommerceApp-Cart](https://user-images.githubusercontent.com/61202188/156882619-cdc151c1-3c8d-4abf-9288-3bb37eff6fec.jpg)
-
-![eCommerceApp-Search](https://user-images.githubusercontent.com/61202188/156882622-bb2aa50d-0e99-4839-8c27-65814800eb2e.jpg)
-
 
