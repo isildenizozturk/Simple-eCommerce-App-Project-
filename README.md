@@ -26,4 +26,17 @@ Installations
 
 You need to install required packages which are import to the project. 
 
+## Screenshots of the app
+
+![eCommerceApp-Welcome](https://user-images.githubusercontent.com/61202188/216708994-7fbec759-5e3e-4517-8ddf-a11ab4688c2e.jpg)
+
+![eCommerceApp-SignUp](https://user-images.githubusercontent.com/61202188/216709003-9f75318d-f7c6-44e3-bfe6-ddd6fc16826f.jpg)
+
+![eCommerceApp-Login](https://user-images.githubusercontent.com/61202188/216709019-b32a65dd-e7e7-4d3c-85ae-174a1acb1c4e.jpg)
+
+![eCommerceApp-Home2](https://user-images.githubusercontent.com/61202188/216709055-7419aa46-53c9-4efc-bd94-46fa6b4d90cc.jpg)
+
+![eCommerceApp-Search](https://user-images.githubusercontent.com/61202188/216709118-15911d5c-a78e-4bd5-b0d0-c446232a396b.jpg)
+
+![eCommerceApp-Cart](https://user-images.githubusercontent.com/61202188/216709149-81808fd8-c709-4fb3-8664-3284a9b1cfc8.jpg)
 
